@@ -5,7 +5,6 @@ import React from 'react'
 import Modal from './Modal'
 import Gallery from '../gallery/Gallery'
 import Info from '../Info'
-
 const PreviewModal = () => {
 
   const previewModal =usePreviewModal()

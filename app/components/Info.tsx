@@ -13,7 +13,6 @@ interface InfoProps{
 const Info:FC<InfoProps>= ({data}) => {
   const cart = useCart();
 
-  
   const onAddToCart = () => {
     cart.addItem(data);
   }
